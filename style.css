@@ -116,6 +116,7 @@ nav li a {
 .banner{
     width: 100%;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 /*Miss Scroll-Down animation, Fixed Sticky Nav - Commit 3*/
@@ -177,4 +178,99 @@ main p strong{
 /*Seems about right, Huge blank between main and img*/ 
 
 /*Will Lokk up to this later - Commit 5*/
+
+
+/*Footer*/
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(16, 148, 148);
+    color: white;
+    height: 450px;
+
+}
+
+footer section h3{
+    padding: 10px;
+    margin: 20px 10px;
+}
+
+footer .blanc {
+    color: orangered;
+    text-decoration: none;
+}
+
+footer .blanc:hover{
+    color: white;
+}
+
+/*Column 1*/
+
+.col1{
+    width: 15%;
+}
+
+.col1 img{
+    height: 150px;
+    margin-bottom: 10px;
+
+}
+
+/*Column 2*/
+
+.col2{
+    width: 30%;
+}
+
+.col2 ul{
+    list-style-type: none;
+}
+
+.col2 ul li {
+    margin: 30px;
+    border: none;
+    border-bottom: 1px dashed white;
+    width: 50%;
+}
+
+.col2 ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.col2 ul li a:hover i{
+    color : white;
+}
+
+.col2 ul li a::after{
+    content: "\A";
+    white-space: pre;
+}
+
+
+/*Column 3*/
+
+.col3{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    /*justify-content:space-evenly*/
+}
+
+.col3 h4{
+    margin-bottom: 20px;
+}
+
+.col3 p{
+    width: 60%;
+    margin: 20px
+}
+
+/*Column 4*/
+
+.col4{
+    width: 25%;
+
+}
 
