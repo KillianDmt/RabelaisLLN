@@ -287,3 +287,37 @@ footer .blanc:hover{
 /*Would be great being centered*/
 
 /*Done - Commit 7*/
+
+
+/*Media Queries*/
+
+/*No Display for Mobile Use*/
+
+.Mobile{
+    display: none;
+}
+
+@media screen and (max-width:960px){
+
+    /*Header*/
+
+    .Mobile {
+        display: initial;
+    }
+
+    header{
+        display: none;
+    }
+
+    .HeaderMob{
+        background-color: black;
+        padding: 10px;
+        color: white;
+        border-radius: 20px;
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        z-index: 1;
+    }
+
+}
