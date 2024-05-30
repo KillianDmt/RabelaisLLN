@@ -49,7 +49,7 @@ header ul li a:hover .Orange{
 nav{
     background-color: antiquewhite;
     padding: 20px;
-    top: 50px;
+    top: -0.5px; /*top is distance from last item I guess*/
     position: sticky;
     z-index: 1;
 }
@@ -108,4 +108,14 @@ nav li a {
     width: 100%;
 }
 
+/*Nav sticky not working well - Commit 2*/
+/*Fixed with top */
+
+/*Banner*/
+
+.banner{
+    width: 100%;
+}
+
+/*Miss Scroll-Down animation, Fixed Sticky Nav - Commit 3*/
 
