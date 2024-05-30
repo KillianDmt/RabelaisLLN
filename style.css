@@ -47,11 +47,12 @@ header ul li a:hover .Orange{
 /*Sticky Nav*/
 
 nav{
-    background-color: antiquewhite;
+    background-color: #f6f6f5;
     padding: 20px;
     top: -0.5px; /*top is distance from last item I guess*/
     position: sticky;
     z-index: 1;
+    box-shadow: 0px 0px 16px 0px #676767;
 }
 
 nav ul {
@@ -86,7 +87,6 @@ nav li a {
 .deroulant{
     display: none;
     position: absolute;
-    background-color: antiquewhite;
     box-shadow: 0px 8px 16px 0px lightgray;
     z-index: 1;
 }
@@ -97,7 +97,7 @@ nav li a {
     text-align: left;
     align-items: self-start;   
     /*DropDown Menu Bugged align-items center from nav ul*/
-    background-color: antiquewhite;
+    background-color: #f6f6f5 ;
 }
 
 .deroulant li a {
@@ -185,7 +185,7 @@ main p strong{
 footer{
     display: flex;
     flex-direction: row;
-    background-color: rgb(16, 148, 148);
+    background-color: #17c1c1da;
     color: white;
     height: 450px;
 
