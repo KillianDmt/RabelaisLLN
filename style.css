@@ -115,6 +115,7 @@ nav li a {
 
 .banner{
     width: 100%;
+    margin-top: 0;
 }
 
 /*Miss Scroll-Down animation, Fixed Sticky Nav - Commit 3*/
@@ -128,6 +129,7 @@ main{
     line-height: 25px;
     letter-spacing: 3px;
     margin: 5% 7%;
+    height: 50%;
 }
 
 img {
@@ -152,3 +154,27 @@ main p strong{
 }
 
 /*Main Complete - Commit 4*/
+
+/*Banner Footer*/
+
+/*Same Base CSS as Top Banner*/
+
+.HomeBanner{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+.HomeBanner h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: fit-content;
+}
+
+/*Seems about right, Huge blank between main and img*/ 
+
+/*Will Lokk up to this later - Commit 5*/
+
