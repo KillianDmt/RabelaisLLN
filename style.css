@@ -8,7 +8,7 @@
 
 /*Body*/
 body {
-
+    font-family: "Antic Didone", serif;
 }
 
 /*Header*/
@@ -119,3 +119,36 @@ nav li a {
 
 /*Miss Scroll-Down animation, Fixed Sticky Nav - Commit 3*/
 
+/*Main Text Area*/
+
+main{
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    line-height: 25px;
+    letter-spacing: 3px;
+    margin: 5% 7%;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+main p strong{
+    color: orangered;
+    font-style: italic;
+}
+
+.left{
+    width: 50%;
+    height: 85vh;
+    margin-right: 10px;
+}
+
+.right{
+    width: 50%;
+    margin-left: 10px;
+}
+
+/*Main Complete - Commit 4*/
