@@ -42,4 +42,70 @@ header ul li a{
 header ul li a:hover .Orange{
     color: orangered;
 }
+/*Header Done - Commit 1*/
+
+/*Sticky Nav*/
+
+nav{
+    background-color: antiquewhite;
+    padding: 20px;
+    top: 50px;
+    position: sticky;
+    z-index: 1;
+}
+
+nav ul {
+    align-items: center;
+    justify-content: flex-end;
+    white-space: nowrap;
+    max-width: 1200px;
+    margin : 0 auto;
+    list-style-type: none;
+}
+
+nav li{
+    width: 12.5%;
+    display: inline-block;
+    font-size: 24px;
+}
+
+nav li img{
+    width: 80%;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.PositionDeroulant{
+    position: relative;
+    display: inline-block;
+}
+
+.deroulant{
+    display: none;
+    position: absolute;
+    background-color: antiquewhite;
+    box-shadow: 0px 8px 16px 0px lightgray;
+    z-index: 1;
+}
+
+.PositionDeroulant:hover .deroulant{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: self-start;   
+    /*DropDown Menu Bugged align-items center from nav ul*/
+    background-color: antiquewhite;
+}
+
+.deroulant li a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
 
